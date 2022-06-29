@@ -5,19 +5,16 @@
 </head>
 <body>
     <center>
-    <a class="blocks a" onclick="myFunction('indexadmin.php')">
+    <a href="indexadmin.php" class="blocks a">
         <img src="https://berbagitips.co/wp-content/uploads/2019/08/data-management-665x435.jpg">
         <h1>Data Management</h1>
     </a>
-    <a class="blocks a" onclick="myFunction('indexuser.php')">
+    <a href="indexuser.php" class="blocks a">
         <img src="https://www.ruparupa.com/blog/wp-content/uploads/2020/12/rekomendasi-cctv.jpg">
         <h1>CCTV</h1>
     </a>
     </center>
 </body>
 <script>
-    function myFunction(win){
-        window.location(win)
-    }
 </script>
 </html>
